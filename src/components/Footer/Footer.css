@@ -1,0 +1,60 @@
+.footer {
+  padding-top: 50px;
+  background: #323232;
+}
+.footer-foot {
+  background: #1D1D1D;
+  padding: 7px 0;
+}
+.footer-foot-text {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 23px;
+  color: #9E9E9E;
+}
+.footer-menu {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-bottom: 20px;
+}
+.footer-menu-title {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 23px;
+  color: #ECECEC;
+  margin-bottom: 20px;
+}
+.footer-menu-text {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 23px;
+  color: #9E9E9E;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.footer-menu-text.bottom {
+  padding: 20px 0;
+  margin: 0;
+}
+.footer-menu-text.bottom:hover {
+  cursor: auto;
+  color: #9e9e9e;
+}
+.footer-menu-text:hover {
+  color: var(--green);
+}
+.footer-menu-text img {
+  margin-right: 10px;
+}

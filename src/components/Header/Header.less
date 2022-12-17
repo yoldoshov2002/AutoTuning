@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+}
+
+.head{
+    display: flex;
+    gap: 20px;
+    &-text{
+        padding: 16px 0;
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 23px;
+        &.border{
+            padding-right: 30px;
+            border-right: 1px solid var(--grey);
+        }
+    }
+    label{
+        padding: 16px 0;
+        width: 30%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .head-input{
+            width: 80%;
+            font-family: 'Manrope';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 23px;
+            color: #969696;
+            border: transparent;
+            outline: none;
+        }
+    }
+}
+
+hr{
+    background: none;
+    border-top: transparent;
+    border-bottom:1px solid var(--grey);
+}
+
+.body{
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &-buy{
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 13px;
+        line-height: 16px;
+        color: #252B2F;
+        &-text{
+            font-family: 'Manrope';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 22px;
+            color: #969696;
+        }
+    }
+    &-cart{
+        width: 46px;
+        height: 46px;
+        background: #333333;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        margin-left: 23px;
+            }
+    &-time{
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 23px;
+        color: #333333;
+        &-text{
+            font-family: 'Manrope';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 23px;
+            color: #969696;
+        }
+    }
+    &-phone{
+        a{
+            font-family: 'Manrope';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 23px;
+            color: #333333;
+            text-decoration: none;
+        }
+
+        &-text{
+            font-family: 'Manrope';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 23px;
+            color: #333333;
+        }
+    }
+}
+
+
+.foot{
+    background: #333333;
+    padding: 14px 0;
+    &-line{
+        display: flex;
+        gap: 126px;
+        &-text{
+            font-family: 'Manrope';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 15px;
+            line-height: 23px;
+            letter-spacing: 0.03em;
+            color: #FFFFFF;
+        }
+    }
+}

@@ -1,0 +1,22 @@
+.brend {
+  margin-bottom: 60px;
+}
+.brend-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 84px;
+  background: #F8F8F8;
+  border: 1px solid #E6E9EC;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 10px;
+}
+.brend-box img {
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  object-fit: contain;
+}
